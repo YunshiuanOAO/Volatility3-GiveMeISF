@@ -12,16 +12,11 @@ can run `linux.psscan` or `windows.psscan`.
 
 ## Demo
 
-Linux :
+Linux:
 
-<video src="assets/Linuxdemo.mp4" controls width="720">
-  Your viewer doesn't support inline video — see
-  <a href="assets/Linuxdemo.mp4">assets/Linuxdemo.mp4</a>.
-</video>
+https://github.com/user-attachments/assets/53c55891-e905-4996-9762-7d833316bccc
 
 
-Both plugins also (optionally) verify the resulting ISF by running the platform's
-`psscan` plugin in-process.
 
 ## Requirements
 
@@ -135,8 +130,3 @@ result. A failed `windows.psscan` validation usually points to the dump itself
 ## License
 
 [MIT](LICENSE).
-
-Note: Volatility 3 itself is licensed under VSL-v1.0. These plugins
-`import volatility3.*` and so are arguably derivative works. MIT is fine for
-personal/standalone use; if you want to upstream into Volatility 3 you'll
-need to relicense to VSL-v1.0 to match the project.

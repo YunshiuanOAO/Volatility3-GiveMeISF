@@ -42,3 +42,8 @@ volatility3.log
 *.vmsn
 hiberfil.sys
 *.json.xz
+
+# Demo assets — host on GitHub user-attachments instead of in-repo
+assets/*.mp4
+assets/*.mov
+assets/*.webm
